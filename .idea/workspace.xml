@@ -13,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
@@ -107,6 +108,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+=======
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
             </state>
           </provider>
         </entry>
@@ -116,8 +125,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="SCSS File" />
         <option value="CSS File" />
+=======
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
         <option value="HTML File" />
       </list>
     </option>
@@ -125,6 +137,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/sass/utils/_placeholders.scss" />
         <option value="$PROJECT_DIR$/sass/utils/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/component/_buttons.scss" />
@@ -142,6 +155,9 @@
         <option value="$PROJECT_DIR$/pages/contact.html" />
         <option value="$PROJECT_DIR$/pages/profile.html" />
         <option value="$PROJECT_DIR$/pages/add.html" />
+=======
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
       </list>
     </option>
   </component>
@@ -151,6 +167,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
@@ -163,6 +180,15 @@
     <option name="x" value="577" />
     <option name="y" value="42" />
     <option name="width" value="1103" />
+=======
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="220" />
+    <option name="y" value="23" />
+    <option name="width" value="874" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
     <option name="height" value="953" />
   </component>
   <component name="ProjectView">
@@ -177,6 +203,7 @@
               <item name="SafariProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SafariProject" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="SafariProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SafariProject" type="462c0819:PsiDirectoryNode" />
@@ -206,6 +233,8 @@
               <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
           </expand>
           <select />
         </subPane>
@@ -216,6 +245,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -225,6 +255,10 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+=======
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -248,15 +282,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552725521530</updated>
+<<<<<<< HEAD
       <workItem from="1552725523970" duration="3797000" />
       <workItem from="1552949887942" duration="9003000" />
       <workItem from="1552989795810" duration="98000" />
       <workItem from="1552990016275" duration="2951000" />
       <workItem from="1553193882631" duration="18926000" />
+=======
+      <workItem from="1552725523970" duration="2230000" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="34775000" />
   </component>
   <component name="ToolWindowManager">
@@ -280,6 +319,31 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+=======
+    <option name="totallyTimeSpent" value="2230000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="220" y="23" width="874" height="953" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24942791" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +355,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding>
@@ -471,6 +536,10 @@
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+>>>>>>> 37cd6aa33fceac41ceacb7b1f2dc10a91d100131
         </state>
       </provider>
     </entry>
