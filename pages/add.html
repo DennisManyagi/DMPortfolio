@@ -43,6 +43,40 @@
                 <label class="form-control-label" for="comment">Details</label>
                 <textarea class="form-control" id="comment" rows="3" placeholder="Enter property details"></textarea>
             </div>
+
+
+            <small>Add Photos</small>
+            <div class="form-group mb-3">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="uploadFile">
+                    <label class="custom-file-label" for="uploadFile" aria-describedby="uploadTheFile">Choose file</label>
+                </div>
+                <div class="input-group-append">
+                    <span class="input-group-text" id="uploadTheFile">Upload</span>
+                </div>
+            </div>
+
+            <small>Rates</small>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Daily" aria-label="Amount (to the nearest dollar)">
+                <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Weekly" aria-label="Amount (to the nearest dollar)">
+                <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+
         </fieldset><!-- field set -->
 
         <button class="btn btn-primary mb-4" type="submit">Submit</button>
