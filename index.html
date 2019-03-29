@@ -11,22 +11,49 @@
 </head>
 <body>
 
+<!--Navbar-->
     <!--Begin Navigation Bar HTML-->
-    <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #713DA5" id="menu" aria-label="menu">
-        <div class="container">
-            <a class="navbar-brand" href="#">Safari Project</a>
-            <div class="navbar-nav" role="navigation">
-                <a class="nav-item nav-link active" href="index.html" aria-owns="">Home</a>
-                <a class="nav-item nav-link" href="pages/add.html" id="addTask" aria-owns="">Add Property</a>
-                <a class="nav-item nav-link" href="pages/contact.html" aria-owns="">Contact Us</a>
-                <a class="nav-item nav-link" href="pages/profile.html" aria-owns="">Property Profile</a>
-            </div>
-        </div>
-    </nav>
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color" style="background-color: #713DA5">
+    <div class="container">
+    <a class="navbar-brand" href="#">Safari Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu" role="navigation">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-item nav-link active" href="index.html">Home</a>
+                <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="pages/add.html" id="addProperty">Add Property</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="pages/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="pages/profile.html">Property Profile</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
 <!--End Navigation HTML-->
 
 <!--Header Content HTML-->
-
 <section id="weather">
         <div class="container mt-3">
                 <h5 class="">Weather Conditions</h5>
@@ -35,7 +62,6 @@
 </section>
 
     <!--Search Content HTML-->
-    <section id="search">
         <div class="container">
             <!-- Search form -->
             <form class="form-inline md-form mr-auto mb-4">
@@ -43,15 +69,6 @@
                 <button class="btn btn-rounded btn-sm my-0" style="background-color: #713DA5; color: white" type="submit">Search</button>
             </form>
         </div>
-    </section>
-
-    <!-- New Homes HTML -->
-    <section id="blog">
-
-
-
-    </section>
-
 
         <!--Popular Content HTML-->
     <div class="container">
@@ -59,7 +76,7 @@
         <div class="row">
             <div class="col-sm-6">
     <section class="card mb-5">
-        <img class="card-img-top img-fluid" src="images/a.jpg" href="#">
+        <img class="card-img-top img-fluid" src="images/a.jpg" alt="property1">
         <div class="card-header">
             <h2 class="card-title">Property #1</h2>
         </div>
@@ -71,7 +88,7 @@
 
             <div class="col-sm-6">
         <section class="card mb-5">
-            <img class="card-img-top img-fluid" src="images/b.jpg" href="#">
+            <img class="card-img-top img-fluid" src="images/b.jpg" alt="property2">
         <div class="card-header">
             <h2 class="card-title">Property #2</h2>
         </div>
@@ -79,9 +96,8 @@
             <h5 class="card-subtitle">Location</h5>
         </div>
     </section>
-            </div>
+            </div><!--Card end HTML-->
     </div>
-
     </div><!--groups HTML-->
 
 
@@ -90,9 +106,8 @@
             <h1 class="mb-4">Nearby</h1>
             <div class="row">
                 <div class="col-sm-6">
-
-                    <section class="card mb-5" id="nearby">
-                        <img class="card-img-top img-fluid" src="images/c.jpeg" href="#">
+                    <section class="card mb-5">
+                        <img class="card-img-top img-fluid" src="images/c.jpeg" alt="property3">
                         <div class="card-header">
                             <h2 class="card-title">Property #1</h2>
                         </div>
@@ -104,7 +119,7 @@
 
                 <div class="col-sm-6">
                     <section class="card mb-5">
-                        <img class="card-img-top img-fluid" src="images/d.jpg" href="#">
+                        <img class="card-img-top img-fluid" src="images/d.jpg" alt="property4">
                         <div class="card-header">
                             <h2 class="card-title">Property #2</h2>
                         </div>
@@ -114,7 +129,6 @@
                     </section>
                 </div>
             </div>
-
         </div><!--groups HTML-->
 
     <div class="container text-center">
@@ -133,7 +147,7 @@
                 <li data-target="#featured" data-slide-to="2"></li>
             </ol>
             <div class="carousel-item active">
-                <img class="img-fluid" src="images/a2.jpg">
+                <img class="img-fluid" src="images/a2.jpg" alt="location1">
                 <div class="carousel-caption">
                     <h3>Big Bear Lake</h3>
                     <p>"Let it snow..."</p>
@@ -141,7 +155,7 @@
             </div><!--carousel item-->
 
             <div class="carousel-item">
-                <img class="img-fluid" src="images/a3.jpg">
+                <img class="img-fluid" src="images/a3.jpg" alt="location2">
                 <div class="carousel-caption">
                     <h3>Hawaii</h3>
                     <p>"Let the sun shine..."</p>
@@ -149,7 +163,7 @@
             </div><!--carousel item-->
 
             <div class="carousel-item">
-                <img class="img-fluid" src="images/a1.jpg">
+                <img class="img-fluid" src="images/a1.jpg" alt="location3">
                 <div class="carousel-caption">
                     <h3>Las Vegas</h3>
                     <p>"What happens here..."</p>
@@ -186,37 +200,37 @@
         </div>
         <div class="row mb-5">
             <div class="col-12 col-md-4 text-center">
-                <img src="images/p6.jpg" class="mt-4 rounded-circle img-fluid"/>
+                <img src="images/p6.jpg" class="mt-4 rounded-circle img-fluid" alt="customer1"/>
                 <p>
                     <strong class="text-info">Mary J</strong>  Provided our family with a great place to enjoy your summer vacation.
                 </p>
             </div>
             <div class="col-12 col-md-4 text-center">
-                <img src="images/p2.jpg" class="mt-4 rounded-circle img-fluid"/>
+                <img src="images/p2.jpg" class="mt-4 rounded-circle img-fluid" alt="customer2"/>
                 <p>
                     <strong class="text-info">Huey F</strong>  Got the best deal on a lovely home for the weekend.
                 </p>
             </div>
             <div class="col-12 col-md-4 text-center">
-                <img src="images/p1.jpg" class="mt-4 rounded-circle img-fluid"/>
+                <img src="images/p1.jpg" class="mt-4 rounded-circle img-fluid" alt="customer3"/>
                 <p>
                     <strong class="text-info">Jotaro K</strong>  Adding my property was easy and fast.
                 </p>
             </div>
             <div class="col-12 col-md-4 text-center">
-                <img src="images/p4.jpg" class="mt-4 rounded-circle img-fluid"/>
+                <img src="images/p4.jpg" class="mt-4 rounded-circle img-fluid" alt="customer4"/>
                 <p>
                     <strong class="text-info">Yugi M</strong>  Found a cool place, excited to be taking my girlfriend snowboarding.
                 </p>
             </div>
             <div class="col-12 col-md-4 text-center">
-                <img src="images/p5.jpg" class="mt-4 rounded-circle img-fluid"/>
+                <img src="images/p5.jpg" class="mt-4 rounded-circle img-fluid" alt="customer5"/>
                 <p>
                     <strong class="text-info">Candice L</strong>  Friendly quick service, highly recommend.
                 </p>
             </div>
             <div class="col-12 col-md-4 text-center mb-5">
-                <img src="images/p3.jpg" class="mt-4 rounded-circle img-fluid"/>
+                <img src="images/p3.jpg" class="mt-4 rounded-circle img-fluid" alt="customer6"/>
                 <p>
                     <strong class="text-info">Stephanie R</strong> Love seeing so many great places nearby.
                 </p>

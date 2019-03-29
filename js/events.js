@@ -24,7 +24,7 @@ xhr.onload = function() {
         popular += '<div class="col-sm-6">';
         popular += '<section class="card mb-5">';
 
-        popular += '<img class="card-img-top img-fluid" src="'+data.homes[i].image+'" href="#">';
+        popular += '<img class="card-img-top img-fluid" src="'+data.homes[i].image+'">';
         popular += '<div class="card-header">';
         popular += '<h2 class="card-title">'+data.homes[i].city+'</h2>';
         popular += '</div>';
