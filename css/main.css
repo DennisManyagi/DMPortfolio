@@ -50,3 +50,23 @@
     pointer-events: none;
     color: #aaa;
 }
+
+#weather{
+
+    color: grey;
+}
+
+h1{
+
+    color: #713DA5;
+}
+
+h2{
+
+    color: #838B91;
+}
+
+h5{
+
+    color: darkgrey;
+}
